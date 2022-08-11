@@ -20,7 +20,7 @@ namespace SydneyCoffee
             String maxName = "";
         }
         public: void userinput(){
-            // Loop to get the inputs
+            // Loop to get the inputs happy
             for (int i = 0; i < n; i++)            {
                 Console.Write("Enter customer name: ");
                 name[i] = Console.ReadLine();
@@ -39,7 +39,7 @@ namespace SydneyCoffee
         }
         public: void calculate(){
             
-                // determining the price
+                // determining the price happy
                 if (quantity[i] <= 10)
                 {
                     price = 36 * quantity[i];
